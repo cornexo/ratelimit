@@ -1,3 +1,9 @@
+# 1.0.3 04/14/2022
+* #39 Deprecate calling commands on Redis inside Redis#multi
+* #41 Remove redis deprecation warning. Changes redis and bundler version dependencies
+* Fixed failing test by making explicit reference to Timeout::timeout
+* Update rubies used by Travis to currently supported
+  
 # 1.0.1 08/05/2014
 * #14 fix issue with wrong count on bucket_span == count(..interval) - @olgen
 
